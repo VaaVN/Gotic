@@ -1,0 +1,157 @@
+@import url("reset.css");
+@import url("font.css");
+body {
+  display: flex;
+  padding: 0px 64px 64px 64px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  background:
+    linear-gradient(
+      143deg,
+      rgba(6, 5, 5, 0.52) -5.16%,
+      rgba(108, 94, 94, 0.52) 129.33%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(255, 6, 193, 0.48) 3.07%,
+      rgba(0, 0, 0, 0.48) 95.37%
+    ),
+    linear-gradient(216deg, rgba(39, 57, 145, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%),
+    radial-gradient(78.29% 78.86% at 36.43% 22.32%, #000 7.69%, #ff0004 100%),
+    #1e1e1e;
+  background-blend-mode: darken, hard-light, multiply, multiply, normal;
+}
+h1 {
+  color: #c95c5c;
+  font-family: Wes;
+  font-size: 128px;
+  font-weight: 400;
+  line-height: 85%;
+}
+h3 {
+  color: #c95c5c;
+  font-family: Wes;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 85%;
+}
+p {
+  color: #c95c5c;
+  font-family: Wes;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 77px;
+}
+.r {
+  text-align: right;
+}
+header {
+  border-radius: 70px;
+  display: flex;
+  height: 100px;
+  padding: 50px;
+  align-items: center;
+  gap: 64px;
+  align-self: stretch;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  letter-spacing: 8px;
+}
+footer {
+  display: flex;
+  height: 345px;
+  padding: 50px 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 80px;
+}
+.screen1 {
+  display: flex;
+  height: 100vh;
+  padding: 32px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 128px;
+  align-self: stretch;
+  border-radius: 80px;
+}
+.screen2 {
+  display: flex;
+  height: 100vh;
+  padding: 32px 64px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 80px;
+}
+.cardGame {
+  display: flex;
+  padding: 0 16px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.card {
+  display: flex;
+  height: 80vh;
+  padding: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.cardImg {
+  height: 75%;
+  opacity: 80%;
+}
+.desc {
+  display: flex;
+  width: 914px;
+  height: 80vh;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+  p {
+    height: 100%;
+    width: 100%;
+    font-size: 200%;
+    line-height: 63px;
+  }
+}
+.button {
+  display: flex;
+  padding: 31px 50px 30px 51px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 31px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.glass {
+  background: radial-gradient(
+    268.18% 78.13% at 50% 50%,
+    rgba(0, 0, 0, 0) 74.52%,
+    #c30808 100%
+  );
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(30px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.headerLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+}

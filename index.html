@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Готика</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="asset\img\icon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="glass">
+      <img src="asset\img\icon.svg" alt="" />
+      <div class="headerLinks">
+        <a href="#cardGame"
+          ><p>
+            Вытянуть<br />
+            карту
+          </p></a
+        >
+        <a href="https://yandex.ru/maps/?ysclid=mm3njfq3xo918112082">
+          <p>
+            О разных<br />
+            картах
+          </p></a
+        >
+        <a href="#aboutUs"> <p>О нас</p></a>
+      </div>
+    </header>
+    <section class="screen1 glass">
+      <img src="asset\img\glass.svg" alt="" />
+      <h1 class="r">Готика — онлайн гадания для твоей судьбы</h1>
+    </section>
+    <section id="cardGame" class="screen2 glass">
+      <h1 data-js="name">Рандомная карта</h1>
+      <div class="cardGame">
+        <div class="card">
+          <img data-js="img" class="cardImg" src="asset\img\card.svg" alt="" />
+          <div class="button glass" data-js="but"><h3>Вытянуть карту</h3></div>
+        </div>
+        <div class="desc">
+          <p data-js="disc">Тут будет описание карты</p>
+          <p data-js="author">Тут будет автор дизайна карты</p>
+        </div>
+      </div>
+    </section>
+    <footer id="aboutUs" class="glass">
+      <p>
+        Сайт «Готика» является лишь домашней работой. Вся представленная
+        информация — выдумка и  не должна влиять на ваши решения. Относитесь к 
+        сайту исключительно как к развлечению
+      </p>
+    </footer>
+  </body>
+  <script src="./js/card.js" defer></script>
+</html>
