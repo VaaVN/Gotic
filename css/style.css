@@ -74,7 +74,7 @@ footer {
 }
 .screen1 {
   display: flex;
-  height: 100vh;
+  height: 95vh;
   padding: 32px;
   justify-content: flex-end;
   align-items: center;
@@ -84,7 +84,7 @@ footer {
 }
 .screen2 {
   display: flex;
-  height: 100vh;
+  height: 95vh;
   padding: 32px 64px;
   flex-direction: column;
   align-items: center;
